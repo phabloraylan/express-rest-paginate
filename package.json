@@ -1,0 +1,8 @@
+{
+  "name": "express-rest-paginate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/phabloraylan/express-rest-paginate",
+  "author": "phabloraylan <phabloraylan@gmail.com>",
+  "license": "MIT"
+}
