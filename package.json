@@ -3,7 +3,7 @@
   "description": "Express pagination middleware.",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "github.com/phabloraylan/express-rest-paginate",
+  "repository": "https://github.com/phabloraylan/express-rest-paginate",
   "author": "phabloraylan <phabloraylan@gmail.com>",
   "license": "MIT"
 }
