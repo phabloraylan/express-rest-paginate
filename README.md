@@ -1,12 +1,5 @@
 # express-rest-paginate
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![Build Status][travis-image]][travis-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
-[![MIT License][license-image]][license-url]
-[![Slack][slack-image]][slack-url]
-
 > Express pagination middleware.
 
 ## Install
@@ -48,7 +41,3 @@ app.get('/users', async (req, res, next) => {
 
 app.listen(3000);
 ```
-
-## License
-
-[MIT][license-url]
