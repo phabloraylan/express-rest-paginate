@@ -29,9 +29,11 @@ app.use(restPaginate({
     descFalse: 'asc' //default: asc
 }));
 
+//page  = limit * offset
+
 app.get('/users', async (req, res, next) => {
   const user = await User.findAndCountAll({
-    offset: req.paginate.offset,
+    offset: req.paginate.page,
     limit: req.paginate.limit,
     order: [[req.paginate.sort, req.paginate.desc]],
   });
