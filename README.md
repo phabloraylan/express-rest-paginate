@@ -23,6 +23,7 @@ app.use(restPaginate());
 // with optional startup settings
 app.use(restPaginate({
     offset: 0, //default: 0
+    page: 1, //default: 1
     limit: 30, //default: 10
     sort: 'created_at', //default: createdAt
     descTrue: 'desc', //default: desc
